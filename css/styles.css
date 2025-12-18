@@ -62,6 +62,22 @@ ul li {
 
 footer {
     text-align: center;
-    color: #777;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+footer button {
+    background: #1a73e8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    margin: 5px;
+    cursor: pointer;
     font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+footer button:hover {
+    background: #1557b0;
 }
